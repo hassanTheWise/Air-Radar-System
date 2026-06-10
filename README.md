@@ -9,7 +9,7 @@ A real-time embedded air radar system that detects object distances, processes t
 The system operates in a multi-stage pipeline to capture, display, and transmit environmental data over shared communication buses:
 1. **Data Acquisition & Sweep:** A servo motor rotates the ultrasonic sensor to scan a 180-degree field. The sensor transmits raw timing data to the microcontroller over the shared **I2C** bus.
 2. **Embedded Processing & Shared Bus Display:** The **PIC16F877A** firmware controls the servo timing via PWM and calculates target distances. To optimize GPIO pin usage, it outputs this telemetry data locally to an **LCD Screen sharing the same I2C bus** via an I2C expander module.
-3. **Real-Time Visualization:** Simultaneously, coordinate data is sent via UART through a **USB-to-TTL converter** to a laptop, where a **Python** script processes the serial stream and renders a live, dynamic radar-style display.
+3. **Real-Time Visualization:** Simultaneously, coordinate data is sent via UART through a **USB-to-TTL converter** to a laptop, where a **Python** script processes the serial stream and renders a live dynamic radar-style display.
 
 ---
 
