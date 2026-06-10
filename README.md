@@ -1,6 +1,6 @@
 # Air Radar System 🛰️
 
-A real-time embedded air radar system that detects object distances, processes the data on-chip, displays local telemetry on an I2C-backed LCD, and visualizes targets graphically on a PC. This project showcases full-stack embedded engineering—bridging bare-metal C firmware with a high-level Python graphical user interface (GUI).
+A real-time embedded air radar system that detects object distances, processes the data on-chip, displays local telemetry on an I2C-backed LCD, and visualizes targets graphically on a PC. This project showcases full-stack embedded engineering-bridging bare-metal C firmware with a high-level Python graphical user interface (GUI).
 
 ---
 
